@@ -1,0 +1,34 @@
+{
+  "produtos": [
+    {
+      "descricao": "Teclado",
+      "preco": 89,
+      "id": 1
+    },
+    {
+      "descricao": "Camisa",
+      "preco": 75,
+      "id": 2
+    },
+    {
+      "descricao": "chuteira",
+      "preco": 200,
+      "id": 3
+    },
+    {
+      "descricao": "Playstation 5",
+      "preco": "4000",
+      "id": 4
+    },
+    {
+      "descricao": "Bicicleta",
+      "preco": "1200",
+      "id": 5
+    },
+    {
+      "descricao": "Hamburger",
+      "preco": 30,
+      "id": 6
+    }
+  ]
+}

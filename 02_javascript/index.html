@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="estilos.css" rel="stylesheet" />
+    
+    <title>Cursos online</title>
+</head>
+<body>
+    <section class="conteudo-fundo"></section>
+
+    <div class="conteudo">
+        <header class="cabecalho">
+            <h1>Cursos online - Instituto de Educação</h1>
+            <p>
+                o IE (Instituto de Educação) oferece diversos cursos, 
+                em diversas áreas. Na área de informática, temos os cursos:
+            </p>
+        </header>
+
+        <ul>
+            <li>Front End</li>
+            <li>Java Programmer</li>
+            <li>React.js</li>
+            <li>Aplicações híbridas</li>
+            <li>Angular</li>
+        </ul>
+
+        <h2>Cursos Presenciais - Instituto de Educação</h2>
+        <p>
+            Na modalidade presencial, os cursos são oferecidos respeitando uma 
+            carga horária e local específicos. Adequado quando o aluno necessitar
+            de um professor disponível durante todo do treinamento.
+        </p>
+
+        
+        <div class="margem">
+            <h2>Faça sua inscrição</h2>
+            <div class="mb-3">
+                <label class="form-label">Seu Nome:</label>
+                <input type="text" id="nome" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Seu Email:</label>
+                <input type="email" id="email" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Data de Nascimento:</label>
+                <input type="date" id="data" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Em qual mês pretende realizar o curso:</label>
+                <select id="mesPreferido" class="form-select"></select>
+            </div>
+
+
+            <button type="button" id="btnEnviar" class="btn btn-primary">Enviar</button>
+
+            <div id="resposta"></div>
+        </div>
+
+    </div>
+
+    <footer class="conteudo-rodape">
+        <div>
+            Copyright @2022 - Todos os direitos reservados
+        </div>
+    </footer>
+
+    <script src="js/inscricao.js"></script>
+</body>
+</html>
